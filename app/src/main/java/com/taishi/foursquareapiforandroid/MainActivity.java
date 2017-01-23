@@ -22,6 +22,7 @@ import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity {
 
+
 	EditText etGeolocation, etQuery;
 	Button btnSearch;
 	ListView listView;
