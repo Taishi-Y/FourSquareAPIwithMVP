@@ -1,3 +1,30 @@
+# Introduction to Model View Presenter on Android
+
+
+This is the simplest MVP sample project pattern on Android. (Use RxJava)
+
+ - Retrofit 2+
+ - RxJava
+
+  
+You can switch without MVP and with MVP in this project.
+
+
+p.s.
+Here is retrofit sample.
+https://github.com/Taishi-Y/Foursquare-API-client-sample-app-for-Android
+
+Learning...
+
+ - http://blog.nkzn.info/entry/2013/01/01/235154
+ - http://qiita.com/takahirom/items/597c48ece57b4623cdee
+ - http://konmik.com/post/introduction_to_model_view_presenter_on_android/
+ 
+ 
+ 
+ ## 
+ 
+
 ## Foursquare API client sample app for Android with Retrofit
 
 ![main screen](https://github.com/Taishi-Y/Foursquare-API-client-sample-app-for-Android/blob/master/images/screenshot.png?raw=true)

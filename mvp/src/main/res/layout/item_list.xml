@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="16dp">
+
+
+
+    <TextView
+        android:id="@+id/tv_item_name"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAME"
+        android:layout_alignParentTop="true"
+
+        />
+
+    <TextView
+        android:text="POINT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/tv_list_point"/>
+
+    <TextView
+        android:text="GENRE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_item_name"
+        android:layout_alignLeft="@+id/tv_item_name"
+        android:layout_alignStart="@+id/tv_item_name"
+        android:id="@+id/tv_item_genre"/>
+
+    <!--<ImageView-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="20dp"-->
+        <!--app:srcCompat="@drawable/icon_coin_4"-->
+        <!--android:layout_below="@+id/tv_favorite_name"-->
+        <!--android:layout_toRightOf="@+id/textView3"-->
+        <!--android:id="@+id/imageView2"/>-->
+
+    <TextView
+        android:text="DISTANCE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_item_genre"
+        android:layout_alignLeft="@+id/tv_item_genre"
+        android:layout_alignStart="@+id/tv_item_genre"
+        android:id="@+id/tv_item_distance"/>
+
+    <TextView
+        android:text="COMMENT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_item_distance"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/tv_item_comment"/>
+
+
+</RelativeLayout>
